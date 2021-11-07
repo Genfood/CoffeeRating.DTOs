@@ -34,6 +34,7 @@ namespace CoffeeRating.DTOs.V1.Requests
         Cappuccino = 5,
         LatteMacchiato = 6,
         EspressoMacchiato = 7,
+        Americano = 8,
         Other = 100
     }
 
