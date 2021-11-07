@@ -7,7 +7,7 @@ namespace CoffeeRating.DTOs.V1.Requests
     public class RatingRequest
     {
         public string Review { get; set; }
-        public int Score { get; set; }
+        public double Score { get; set; }
         public string ImageUrl { get; set; }
         public DateTime Date { get; set; }
         public CoffeeBevarageRequest Bevarage { get; set; }
