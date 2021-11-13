@@ -7,7 +7,7 @@ namespace CoffeeRating.DTOs.V1.Responses
     {
         public long Id { get; set; }
         public string Review { get; set; }
-        public int Score { get; set; }
+        public double Score { get; set; }
         public string ImageUrl { get; set; }
         public DateTime Date { get; set; }
         public CoffeeBevarageResponse Bevarage { get; set; }
